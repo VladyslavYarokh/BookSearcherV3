@@ -15,7 +15,7 @@ import vladyslav.yarokh.bookssearcherv3.R
 abstract class BaseFragment: DaggerFragment() {
 
     protected fun addFragment(fragment: Fragment, backStack: Boolean) {
-        val transaction = requireFragmentManager().beginTransaction()
+        val transaction = parentFragmentManager.beginTransaction()
         transaction.replace(R.id.container, fragment)
         if (backStack) transaction.addToBackStack(fragment.tag)
         transaction.commit()
