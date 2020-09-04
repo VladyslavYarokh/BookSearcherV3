@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#002445</color>
+    <color name="colorPrimaryDark">#002445</color>
+    <color name="colorAccent">#85DC7D</color>
+    <color name="checkedButton">#8085DC7D</color>
+    <color name="textWhitePrimary">#CCFFFFFF</color>
+    <color name="textWhiteSecondary">#99FFFFFF</color>
+    <color name="textDark">#002140</color>
+    <color name="textWhite">#FFFFFF</color>
+    <color name="dark_blue_background">#001931</color>
+    <color name="settings_background">#002445</color>
+    <color name="light_red">#DC7D7D</color>
+    <color name="divider_color">#33FFFFFF</color>
+    <color name="transparent">#80000000</color>
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="@dimen/text_margin_8"
+    app:strokeColor="@color/colorAccent"
+    app:strokeWidth="1dp"
+    app:cardBackgroundColor="@color/transparent"
+    android:layout_margin="@dimen/text_margin_8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/text_margin_8">
+
+        <ImageView
+            android:id="@+id/iv_book_image"
+            android:layout_width="@dimen/text_margin_96"
+            android:layout_height="@dimen/text_margin_96"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/text_margin_8"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tv_book_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="books title"
+                android:maxLength="24"
+                android:ellipsize="end"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_16"/>
+
+            <TextView
+                android:id="@+id/tv_book_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="books author"
+                android:maxLength="24"
+                android:ellipsize="end"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_16"/>
+
+            <TextView
+                android:id="@+id/tv_book_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="description"
+                android:maxLength="64"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_16"/>
+
+            <TextView
+                android:id="@+id/tv_book_pages"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="pages"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_16"/>
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

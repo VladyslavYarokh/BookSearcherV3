@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">GBooks Search V3</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="books">Books</string>
+    <string name="search_page">Search page</string>
+    <string name="logout">Logout</string>
+    <string name="search_books">Book search</string>
+    <string name="search_results">Searching results</string>
+    <string name="future_user">Future user</string>
+    <string name="network_error">Network error…</string>
+    <string name="network_error_message">Internet is not available, reconnect network and try again.</string>
+    <string name="search_fragment_title">"Stand on the shoulders of giants."</string>
+    <string name="app_version">Version: %s</string>
+    <string name="added_later">Logout will be added later.</string>
+    <string name="on_current_destination">You are on current destination</string>
+    <string name="pages">Pages: %s</string>
+    <string name="empty_text_error">Text field is empty</string>
+    <string name="cancel">Cancel</string>
+    <string name="open_in_g_books">Open Store</string>
+
+    <string-array name="phrases">
+        <item>“So many books, so little time.”</item>
+        <item>“A room without books is like a body without a soul.”</item>
+        <item>“Good friends, good books, and a sleepy conscience: this is the ideal life.”</item>
+        <item>“There is no friend as loyal as a book.”</item>
+        <item>“Classic - a book which people praise and do not read.”</item>
+        <item>“... a mind needs books as a sword needs a whetstone, if it is to keep its edge.”</item>
+        <item>“Books are a uniquely portable magic.”</item>
+        <item>“Only the very weak-minded refuse to be influenced by literature and poetry.”</item>
+        <item>“Be careful about reading health books. Some fine day you will die of a misprint.”</item>
+        <item>“Make it a rule never to give a child a book you would not read yourself.”</item>
+    </string-array>
+
+    <string-array name="authors">
+        <item>Frank Zappa</item>
+        <item>Marcus Tullius Cicero</item>
+        <item>Mark Twain</item>
+        <item>Ernest Hemingway</item>
+        <item>Mark Twain</item>
+        <item>George R.R. Martin</item>
+        <item>Stephen King</item>
+        <item>Cassandra Clare</item>
+        <item>Markus Herz</item>
+        <item>George Bernard Shaw</item>
+    </string-array>
+</resources>
