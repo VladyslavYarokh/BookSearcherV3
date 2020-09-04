@@ -88,5 +88,6 @@ class BooksFragment : BaseFragment(), BooksAdapter.BookItemCallback,
         super.onDestroy()
 
         job.cancel()
+        viewModel.onFinish()
     }
 }
