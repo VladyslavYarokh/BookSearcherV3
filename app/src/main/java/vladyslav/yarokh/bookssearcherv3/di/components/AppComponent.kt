@@ -12,13 +12,7 @@ import vladyslav.yarokh.bookssearcherv3.ui.base.BaseApplication
 import vladyslav.yarokh.bookssearcherv3.ui.fragments.books_fragment.BooksFragment
 import vladyslav.yarokh.bookssearcherv3.ui.fragments.search_fragment.SearchFragment
 
-@Component (modules = arrayOf(
-    NetworkModule::class,
-    AppModule::class,
-    AndroidInjectionModule::class,
-    ActivityBuilderModule::class,
-    ViewModelFactoryModule::class,
-    MainVMModule::class))
+@Component (modules = [NetworkModule::class, AppModule::class, AndroidInjectionModule::class, ActivityBuilderModule::class, ViewModelFactoryModule::class, MainVMModule::class])
 interface AppComponent : AndroidInjector<BaseApplication> {
 
     val apiServiceInterface: ApiServiceInterface

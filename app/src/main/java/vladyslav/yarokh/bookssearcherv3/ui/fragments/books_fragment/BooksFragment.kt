@@ -11,7 +11,10 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.android.synthetic.main.fragment_results.*
-import kotlinx.coroutines.*
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.launch
 import vladyslav.yarokh.bookssearcherv3.Constants
 import vladyslav.yarokh.bookssearcherv3.R
 import vladyslav.yarokh.bookssearcherv3.adapters.BooksAdapter

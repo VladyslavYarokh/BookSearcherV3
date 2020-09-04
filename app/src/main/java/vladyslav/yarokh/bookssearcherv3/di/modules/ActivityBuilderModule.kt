@@ -11,17 +11,13 @@ abstract class ActivityBuilderModule {
 
     @MainScope
     @ContributesAndroidInjector(
-        modules = arrayOf(
-            MainFragmentBuildersModule::class
-        )
+        modules = [MainFragmentBuildersModule::class]
     )
     abstract fun contributeMainActivity(): MainActivity
 
     @MainScope
     @ContributesAndroidInjector(
-        modules = arrayOf(
-            MainFragmentBuildersModule::class
-        )
+        modules = [MainFragmentBuildersModule::class]
     )
     abstract fun contributeSplashActivity(): SplashActivity
 }
